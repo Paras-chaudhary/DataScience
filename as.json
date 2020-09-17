@@ -1,0 +1,282 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "qjpr-gyut",
+      "name" : "Election Maps - Statewide",
+      "averageRating" : 0,
+      "createdAt" : 1425070498,
+      "displayType" : "table",
+      "downloadCount" : 1136,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1529451695,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 29065788,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1529451431,
+      "publicationGroup" : 2336445,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1529451309,
+      "rowsUpdatedBy" : "a62c-hw4p",
+      "tableId" : 15283714,
+      "totalTimesRated" : 0,
+      "viewCount" : 47054,
+      "viewLastModified" : 1536183707,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1529451431,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 807772,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1529451431,
+        "workflowId" : 2182,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "a7h7-u2zq",
+          "displayName" : "Office of Elections"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 364001233,
+        "name" : "Map Name",
+        "dataTypeName" : "url",
+        "description" : "Map Name",
+        "fieldName" : "map_name",
+        "position" : 1,
+        "renderTypeName" : "url",
+        "tableColumnId" : 64948134,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : {
+            "description" : "Oahu Map: Island view",
+            "url" : "http://files.hawaii.gov/elections/files/maps/electionmaps/ISLAND_OF_OAHU.pdf"
+          },
+          "non_null" : 42,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "description" : "Oahu #13: Kailua - Waimanalo",
+              "url" : "http://files.hawaii.gov/elections/files/maps/electionmaps/OAHU13.pdf"
+            },
+            "count" : 20
+          } ],
+          "smallest" : {
+            "description" : "Hawaii #10: Waimea",
+            "url" : "http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII10.pdf"
+          }
+        },
+        "format" : {
+          "align" : "left"
+        },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 364001234,
+        "name" : "DESCRIPTION",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "description",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 25882575,
+        "width" : 232,
+        "cachedContents" : {
+          "largest" : "Waipio - Kohala Mountain",
+          "non_null" : 42,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Kailua - Waimanalo",
+            "count" : 20
+          } ],
+          "smallest" : "Aiea - Waipahu"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      } ],
+      "disabledFeatureFlags" : [ "allow_comments" ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "jsonQuery" : {
+          "order" : [ {
+            "columnFieldName" : "county",
+            "ascending" : true
+          } ]
+        },
+        "custom_fields" : {
+          "Data Reference" : {
+            "Reference for Technical Information" : "",
+            "Frequency" : "",
+            "Date Updated" : "",
+            "Date Released" : "",
+            "Period of Coverage" : "",
+            "Unit of Analysis" : "",
+            "Data dictionary/variable list" : ""
+          },
+          "Hawaii Line of Business" : {
+            "Division name" : "",
+            "Line of Business" : "",
+            "Division shortname, acronym" : "",
+            "Department Agency short name, acronym" : "",
+            "State of Hawaii Data Book Category" : "",
+            "Department/Agency" : ""
+          },
+          "Terms of Use Acknowledgement" : {
+            "I agree by uploading this dataset that it contains no private information, and adheres to the data.hawaii.gov terms of use." : "yes"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "a7h7-u2zq",
+        "displayName" : "Office of Elections",
+        "screenName" : "Office of Elections",
+        "type" : "interactive",
+        "userSegment" : "site_member"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "a7h7-u2zq",
+        "displayName" : "Office of Elections",
+        "screenName" : "Office of Elections",
+        "type" : "interactive",
+        "userSegment" : "site_member"
+      },
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-wxmc.vmyu.nrcw", "00000000-0000-0000-3C83-2AC853E0DCB5", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/ISLAND_OF_HAWAII.pdf", "Hawaii Map: Island view" ], "Hawaii Island" ]
+, [ "row-schg_32m2~98rq", "00000000-0000-0000-D63D-5BE088979152", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII1.pdf", "Hawaii #1: Waipio - Kohala Mountain" ], "Waipio - Kohala Mountain" ]
+, [ "row-8maa.cnvd.r2fc", "00000000-0000-0000-D16F-D8676F9ED0F7", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII5.pdf", "Hawaii #5: Puna - Pahoa" ], "Puna - Pahoa" ]
+, [ "row-jiu4_pbba~9qww", "00000000-0000-0000-1BC0-7D34AB2F9854", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII7.pdf", "Hawaii #7: Kailua-Kona" ], "Kailua-Kona" ]
+, [ "row-uysp_j8xi~p2ts", "00000000-0000-0000-A049-B68245CA9986", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII10.pdf", "Hawaii #10: Waimea" ], "Waimea" ]
+, [ "row-cxzt.cipv~5bdf", "00000000-0000-0000-D112-4AFFE972D0FD", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII3.pdf", "Hawaii #3: Keaau" ], "Keaau" ]
+, [ "row-84ka.fudk_m5k8", "00000000-0000-0000-F63D-145F4D48CF5A", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII4.pdf", "Hawaii #4: Volcano - Glenwood" ], "Volcano - Glenwood" ]
+, [ "row-e3ux-eupz.tvwk", "00000000-0000-0000-23D5-E2BCA3D8EEEF", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII6.pdf", "Hawaii #6: Captain Cook - Honaunau" ], "Captain Cook - Honaunau" ]
+, [ "row-v7th~uxj3_82ua", "00000000-0000-0000-349C-1BE5C42AD84B", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII8.pdf", "Hawaii #8: Honokohau" ], "Honokohau" ]
+, [ "row-rvi4~5aag_p9if", "00000000-0000-0000-C2D3-AED35FA45752", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII9.pdf", "Hawaii #9: Kalaoa - Puunahulu" ], "Kalaoa - Puunahulu" ]
+, [ "row-zv3j~rw6k.4e8m", "00000000-0000-0000-662A-748E09245A8D", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/ISLAND_OF_MAUI.pdf", "Maui Map: Island view" ], "Maui Island" ]
+, [ "row-hgbr_njss.cdrx", "00000000-0000-0000-A869-B8D950322874", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/ISLAND_OF_LANAI.pdf", "Lanai Map: Island view" ], "Lanai Island" ]
+, [ "row-g3fb.4wfg_xi5a", "00000000-0000-0000-F774-E8F28E63A253", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/ISLAND_OF_MOLOKAI.pdf", "Molokai Map: Island view" ], "Molokai Island" ]
+, [ "row-khhx.73dm.4e3x", "00000000-0000-0000-7495-58A1DE613328", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/MAUI1.pdf", "Maui #1: Kahakuloa - Waiehu" ], "Kahakuloa - Waiehu" ]
+, [ "row-whnf.9de2.arwg", "00000000-0000-0000-33A3-90B3BCD2F9F1", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/MAUI2.pdf", "Maui #2: Wailuku - Kahului" ], "Wailuku - Kahului" ]
+, [ "row-v4dh-ze2k_fita", "00000000-0000-0000-A9A0-D08440FAC100", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/MAUI3.pdf", "Maui #3: Kapalua - Lahaina" ], "Kapalua - Lahaina" ]
+, [ "row-zd4r_vxhy~yudn", "00000000-0000-0000-24B1-376EDC35A16C", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/MAUI4.pdf", "Maui #4: Olowalu - Kihei" ], "Olowalu - Kihei" ]
+, [ "row-ziay~itf5.jrp7", "00000000-0000-0000-6739-16DFBAA28510", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/MAUI5.pdf", "Maui #5: Wailea" ], "Wailea" ]
+, [ "row-r9eu.cadq-kg4d", "00000000-0000-0000-A3FF-01EA1637BA01", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/KAUAI_COUNTY.pdf", "Kauai Map: County view" ], "Kauai County" ]
+, [ "row-eiku_j6ez_f7s2", "00000000-0000-0000-A5AF-1A8017DF4CED", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/KAUAI1.pdf", "Kauai #1: Hanalei" ], "Hanalei" ]
+, [ "row-rax5~5e28.4zgd", "00000000-0000-0000-D8CC-F9ADCF663DDA", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/OAHU1.pdf", "Oahu #1: Makapuu Point - Wailupe" ], "Makapuu Point - Wailupe" ]
+, [ "row-5a7x.gfpx_feuw", "00000000-0000-0000-576D-1FDEF872D6B8", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/OAHU10.pdf", "Oahu #10: Waimea - Laie" ], "Waimea - Laie" ]
+, [ "row-zbu3_q2sv~vuk5", "00000000-0000-0000-964E-1BD07BC77F0B", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/MAUI6.pdf", "Maui #6: Makawao - Kula" ], "Makawao - Kula" ]
+, [ "row-m8na-6u8r_p4yg", "00000000-0000-0000-BBFB-2064B74F6FBC", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/MAUI7.pdf", "Maui #7: Haiku" ], "Haiku" ]
+, [ "row-pqah-pssa~pyia", "00000000-0000-0000-52A4-0040FA5FE121", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII2.pdf", "Hawaii #2: Hilo" ], "Hilo" ]
+, [ "row-k7fv.wx3d_jtuc", "00000000-0000-0000-82FF-0DF20119B820", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/KAUAI2.pdf", "Kauai #2: Kilauea - Anahola" ], "Kilauea - Anahola" ]
+, [ "row-ecyp~wzec_hs2a", "00000000-0000-0000-E64F-76EBDAF3B0B8", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/KAUAI3.pdf", "Kauai #3: Kapaa" ], "Kapaa" ]
+, [ "row-8fmz-ugch_88jg", "00000000-0000-0000-AA00-31A5E0B3F0C4", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/OAHU11.pdf", "Oahu #11: Waiahole - Hauula" ], "Waiahole - Hauula" ]
+, [ "row-aw7z_jth8_qxz6", "00000000-0000-0000-135F-F667C3E37D64", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/OAHU13.pdf", "Oahu #13: Kailua - Waimanalo" ], "Kailua - Waimanalo" ]
+, [ "row-5bvu~a2z7.8dz5", "00000000-0000-0000-3C4F-E678567DD71E", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/KAUAI4.pdf", "Kauai #4: Lihue" ], "Lihue" ]
+, [ "row-4umm_s2cw.t99u", "00000000-0000-0000-4326-6DBC52A4B7BE", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/OAHU12.pdf", "Oahu #12: Kaneohe" ], "Kaneohe" ]
+, [ "row-3wda_uy4u.xsp7", "00000000-0000-0000-9E61-ADAAEAA433D9", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/KAUAI5.pdf", "Kauai #5: Hanapepe - Koloa" ], "Hanapepe - Koloa" ]
+, [ "row-k63x.5vpz_ny3m", "00000000-0000-0000-7B98-C4BB54608A53", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/KAUAI6.pdf", "Kauai #6: Kekaha - Waimea" ], "Kekaha - Waimea" ]
+, [ "row-mqh3_i2ae~g3wi", "00000000-0000-0000-ADA6-04222CDD2091", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/ISLAND_OF_OAHU.pdf", "Oahu Map: Island view" ], "Oahu Island" ]
+, [ "row-5zxq_y4x4.8yk7", "00000000-0000-0000-094A-371631F3B372", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/OAHU3.pdf", "Oahu #3: Punchbowl - Aliamanu" ], "Punchbowl - Aliamanu" ]
+, [ "row-v2kg~cxsc-89tz", "00000000-0000-0000-07EF-0075B6BF6972", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/OAHU2.pdf", "Oahu #2: Waialae Iki - Makiki" ], "Waialae Iki - Makiki" ]
+, [ "row-g7d9_pafg-ju83", "00000000-0000-0000-8A45-5BF5C2559B23", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/OAHU4.pdf", "Oahu #4: Aiea - Waipahu" ], "Aiea - Waipahu" ]
+, [ "row-npej_7n6h.s5gu", "00000000-0000-0000-1F78-579FFD8E8DA6", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/OAHU5.pdf", "Oahu #5: Wahiawa - Mililani" ], "Wahiawa - Mililani" ]
+, [ "row-h8s2_8bbn~x27a", "00000000-0000-0000-0FA3-477B3200B707", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/OAHU9.pdf", "Oahu #9: Mokuleia - Waimea" ], "Mokuleia - Waimea" ]
+, [ "row-xy7m.g6z9-a7ba", "00000000-0000-0000-94A9-0B9E491B7BE6", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/OAHU6.pdf", "Oahu #6: Lower Pearl Harbor" ], "Lower Pearl Harbor" ]
+, [ "row-3h37.fwmi_22bi", "00000000-0000-0000-D874-76B39F426BE4", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/OAHU7.pdf", "Oahu #7: Ewa Beach - Makakilo" ], "Ewa Beach - Makakilo" ]
+, [ "row-mcuf.f6w2_24ib", "00000000-0000-0000-63B7-AFEA9707AB00", 0, 1555712403, null, 1555712403, null, "{ }", [ "http://files.hawaii.gov/elections/files/maps/electionmaps/OAHU8.pdf", "Oahu #8: Nanakuli - Waianae" ], "Nanakuli - Waianae" ]
+ ]
+}
